@@ -8,6 +8,8 @@ public:
   ~Homework1();
 protected:
   int doSelectMedian(void);
+  void quicksort(int start, int end);
+  int partition(int start, int end, int pivotIndex);
 };
 
 #endif

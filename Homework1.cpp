@@ -9,7 +9,7 @@ int Homework1::doSelectMedian(void) {
 
 void Homework1::quicksort(int start, int end) {
   if (end > start) {
-    int pivot = start + (end - start) / 2;
+    int pivot = end;
     int nextPivot = 0;
     nextPivot = partition(start, end, pivot);
     quicksort(start, nextPivot - 1);
